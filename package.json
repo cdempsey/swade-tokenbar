@@ -1,0 +1,22 @@
+{
+  "name": "swade-tokenbar",
+  "version": "0.0.1",
+  "description": "Foundry Virtual Tabletop for Savage Worlds Adventurer Edition tokenbar",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "bootstrap": "npm install",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+.github
+dist
+node_modules
+packages/**/*.d.ts
+
+LICENSE
+README.md
