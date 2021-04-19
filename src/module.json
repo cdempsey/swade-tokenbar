@@ -1,0 +1,34 @@
+{
+  "name": "${project.name}",
+  "title": "Savage Worlds Adventurer Edition TokenBar",
+  "description": "Savage Worlds Adventurer Edition GM utility for limiting movement, calling for trait and skill rolls, and keeping track of token vital statistics.",
+  "version": "${project.version}",
+  "url": "https://github.com/cdempsey/${project.name}",
+  "bugs": "https://github.com/cdempsey/${project.name}/issues",
+  "changelog": "https://github.com/cdempsey/${project.name}/blob/master/CHANGELOG.md",
+  "download": "https://github.com/cdempsey/${project.name}/archive/${project.version}.zip",
+  "license": "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+  "manifest": "https://github.com/cdempsey/${project.name}/releases/latest/download/module.json",
+  "readme": "https://github.com/cdempsey/${project.name}/blob/master/README.md",
+  "author": "cdempsey (https://github.com/cdempsey)",
+  "system": "swade",
+  "dependencies": [
+    {
+      "name": "swade",
+      "type": "system"
+    }
+  ],
+  "esmodules": ["${project.name}.bundle.js"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "socket": true,
+  "allowBugReporter": true,
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.7.9"
+}

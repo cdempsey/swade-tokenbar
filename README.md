@@ -1,4 +1,4 @@
-# SWADE TokenBar
+# Savage Worlds Adventurer Edition TokenBar
 
 A [Foundry Virtual Tabletop](https://foundryvtt.com/) 
 [Savage Worlds Adventurer Edition](https://www.peginc.com/savage-settings/savage-worlds/)
@@ -21,7 +21,7 @@ tokenbar inspired by the excellent
 ### Initial Setup
 
 With [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)
-installed and [project's source code](https://xxxx.com)
+installed and [project's source code](https://github.com/cdempsey/swade-tokenbar)
 cloned locally running `npm run bootstrap`.
 
 ### Commit Messages
@@ -30,5 +30,9 @@ The project uses
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
 for [git](https://git-scm.com/) commit messages.
 [Conventional Commits Cheat Sheet](https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index)
-as a succinct guide to making a valid commit message. You an add the `.gitmessage` template
+as a succinct guide to making a valid commit message. You can add the `.gitmessage` template
 to the project's git configuration by running: `git config commit.template .gitmessage`
+
+## Licenses
+
+This work is released under the [GLP v3](https://www.gnu.org/licenses/gpl-3.0-standalone.html) License

@@ -2,18 +2,36 @@
   "name": "swade-tokenbar",
   "version": "0.0.1",
   "description": "Foundry Virtual Tabletop for Savage Worlds Adventurer Edition tokenbar",
-  "main": "index.js",
+  "license": "GNU GENERAL PUBLIC LICENSE v3",
+  "authors": [
+    {
+      "name": "cdempsey",
+      "url": "https://github.com/cdempsey"
+    }
+  ],
   "private": true,
   "scripts": {
-    "bootstrap": "npm install",
-    "prettier:check": "npx prettier --check .",
-    "prettier:write": "npx prettier --write ."
+    "bootstrap": "npm install && npm run prepare",
+    "build:dev": "npm run clean && webpack --watch",
+    "clean": "rm -rf dist",
+    "lint": "eslint ./src --ext .ts",
+    "prettier:check": "npx prettier --check ./src",
+    "prettier:write": "npx prettier --write ./src",
+    "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "prettier": "2.2.1"
+    "@league-of-foundry-developers/foundry-vtt-types": "^0.7.9-6",
+    "@types/node": "^14.14.41",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "eslint": "^7.24.0",
+    "husky": "^6.0.0",
+    "prettier": "2.2.1",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
   },
   "engines": {
     "node": ">=14.0.0",
